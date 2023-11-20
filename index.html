@@ -10,45 +10,51 @@
 
 <body>
   <h1>Create your Personal Profile</h1>
-  <section>
-    <form>
+
+
+  <form>
+    <section>
+
       <fieldset>
+
         <legend>Personal Information</legend>
+        <h3>We want to get to know you! Please enter your personal Information</h3>
         <label for="First Name">First Name</label>
-        <input name="First Name" id="First Name" type="text" required aria-placeholder="" />
+        <input name="First Name" id="First Name" type="text" required aria-placeholder="Enter your name" />
 
         <label for="Last Name">Last Name</label>
-        <input name="Last Name" id="Last Name" type="text" required aria-placeholder="" />
+        <input name="Last Name" id="Last Name" type="text" required aria-placeholder="Enter your name" />
 
         <label for="birthdate">Birth Date</label>
-        <input name="birthdate" id="birthdate" type="date" required aria-placeholder="" />
+        <input name="birthdate" id="birthdate" type="date" required aria-placeholder="Enter your birthdate" />
       </fieldset>
-  </section>
+    </section>
 
 
-  <section>
-    <h2> Can you tell us a little bit more? We want to annoy you with unwanted ads</h2>
-    <fieldset>
-      <legend>Futher Information</legend>
-      <label for="favorite-color">Favorite color</label>
-      <input type="color" name="favorite-color" id="favorite-color" />
+    <section>
+      <h3> Can you tell us a little bit more? We want to annoy you with unwanted ads</h3>
+      <fieldset>
+        <legend>Futher Information</legend>
+        <label for="favorite-color">Favorite color</label>
+        <input type="color" name="favorite-color" id="favorite-color" />
 
-      <label for="billing-plan">Whats your favourite pet?</label>
+        <label for="billing-plan">Whats your favourite pet?</label>
 
 
-      <select name="favourite Pet" id="favourite pet">
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="bird">Bird</option>
-      </select>
+        <select name="favourite Pet" id="favourite pet">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="bird">Bird</option>
+        </select>
+      </fieldset>
+    </section>
     </fieldset>
 
-
     <button type="submit">Submit</button>
-    </form>
 
 
-
+  </form>
+  </section>
 </body>
 
 </html>
